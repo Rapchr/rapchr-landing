@@ -1,38 +1,96 @@
-.App {
+.landing-page {
+  margin: auto;
+  background-image: linear-gradient(to bottom,rgba(44,32,30,0.85),brown);
+  height: 100vh;
+  overflow: scroll;
+}
+
+.landing-page-back {
+  position: absolute;
+  text-decoration: none;
+  cursor: pointer;
+  color: peach;
+  left: 20px;
+  font-size: 14px;
+  opacity: .4;
+}
+
+.landing-page-back:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 414px) {
+  opacity: 1;
+}
+
+.landing-page-logo {
+  width: 100px;
+}
+
+.landing-page-contents {
+  margin: 0 auto;
+  position: relative;
+  top: 20%;
   text-align: center;
+  width: 330px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-width: 500px) {
+  width: 260px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.landing-page-contents-bottom {
+  top: 10%;
+  color: peach;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-page-about-btn {
+  color: peach;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background: transparent;
+  color: #f1e3ce;
+  width: 297px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 34px;
+  font-size: 14px;
+  position: relative;
+  padding: 4px 15px 4px 15px;
+  background-color: #f1e3ce1a;
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid transparent;
 }
 
-.App-link {
-  color: #61dafb;
+input:focus {
+  border: 1px solid peach;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 500px) {
+  width: 225px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  height: 42px;
+  border: none;
+  border-radius: 30px;
+  color: peach;
+  text-transform: uppercase;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: .5s;
+
+}
+
+button:hover {
+  background: lighten(orange, 5%);
 }
