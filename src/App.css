@@ -1,6 +1,6 @@
 .landing-page {
   margin: auto;
-  background-image: linear-gradient(to bottom,rgba(44,32,30,0.85),brown);
+  background-image: linear-gradient(to bottom,rgba(44,32,30,0.85),#2c201e);
   height: 100vh;
   overflow: scroll;
 }
@@ -34,6 +34,15 @@
   top: 20%;
   text-align: center;
   width: 330px;
+  color: #f1e3ce;
+}
+
+.landing-page-msg {
+  margin-bottom: 30px;
+}
+
+.landing-page-msg a {
+  color: #f1e3ce;
 }
 
 @media only screen and (max-width: 500px) {
@@ -68,7 +77,12 @@ input {
 }
 
 input:focus {
-  border: 1px solid peach;
+  border: 1px solid #f1e3ce;
+}
+
+::placeholder {
+  color: #f1e3ce;
+  opacity: .5;
 }
 
 @media only screen and (max-width: 500px) {
@@ -76,12 +90,12 @@ input:focus {
 }
 
 button {
-  background-color: orange;
+  background-color: #c77d4a;
   border: none;
   height: 42px;
   border: none;
   border-radius: 30px;
-  color: peach;
+  color: #f1e3ce;
   text-transform: uppercase;
   margin-top: 20px;
   width: 100%;
