@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import './App.css';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import logo from "./logo.svg"
+import twitter from './twitter.svg'
+import instagram from './instagram.svg'
+import email from './email.svg'
 
 
 class App extends Component {
@@ -22,7 +25,7 @@ class App extends Component {
         <div className="landing-page-contents">
           <img className="landing-page-logo" src={logo} alt="Rapchr Logo" />
           <div className="landing-page-contents">
-            <p className="landing-page-msg">A social platform for rap fans. <a target="_blank" rel="noreferrer" className="splash-page__msg__link" href="https://twitter.com/rapchr">@rapchr</a></p>
+            <p className="landing-page-msg">A new way to discuss, analyze and celebrate rap. Sign up for launch updates, and feel free to get in touch.</p>
           </div>
           <MailchimpSubscribe
             url={url}
@@ -37,6 +40,11 @@ class App extends Component {
               )
             }}
           />
+          <div class="landing-page-icons-wrapper">
+            <a target="_blank" href="https://twitter.com/rapchr"><img className="landing-page-icon" alt="twitter" src={twitter} /></a>
+            <a target="_blank" href="https://www.instagram.com/rapchr.app/?hl=en"><img className="landing-page-icon" alt="instagram" src={instagram} /></a>
+            <a href="mailto:malcolm@rapchr.app"><img className="landing-page-icon email" alt="email" src={email} /></a>
+          </div>
         </div>
       </div>
     )

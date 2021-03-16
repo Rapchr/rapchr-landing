@@ -9,7 +9,7 @@
   position: absolute;
   text-decoration: none;
   cursor: pointer;
-  color: peach;
+  color: #f1e3ce;
   left: 20px;
   font-size: 14px;
   opacity: .4;
@@ -107,4 +107,24 @@ button {
 
 button:hover {
   background: lighten(orange, 5%);
+}
+
+.landing-page-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 40px auto;
+}
+
+.landing-page-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.landing-page-icon.email {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  bottom: 1px;
+  border-radius: 6px;
 }
