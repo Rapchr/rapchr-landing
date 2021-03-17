@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/landing-page/static/css/main.cadb5258.chunk.css",
-    "main.js": "/landing-page/static/js/main.a844039a.chunk.js",
-    "main.js.map": "/landing-page/static/js/main.a844039a.chunk.js.map",
-    "runtime-main.js": "/landing-page/static/js/runtime-main.c86adeea.js",
-    "runtime-main.js.map": "/landing-page/static/js/runtime-main.c86adeea.js.map",
-    "static/js/2.856e4c21.chunk.js": "/landing-page/static/js/2.856e4c21.chunk.js",
-    "static/js/2.856e4c21.chunk.js.map": "/landing-page/static/js/2.856e4c21.chunk.js.map",
-    "static/js/3.a22c8797.chunk.js": "/landing-page/static/js/3.a22c8797.chunk.js",
-    "static/js/3.a22c8797.chunk.js.map": "/landing-page/static/js/3.a22c8797.chunk.js.map",
-    "index.html": "/landing-page/index.html",
-    "static/css/main.cadb5258.chunk.css.map": "/landing-page/static/css/main.cadb5258.chunk.css.map",
-    "static/js/2.856e4c21.chunk.js.LICENSE.txt": "/landing-page/static/js/2.856e4c21.chunk.js.LICENSE.txt",
-    "static/media/email.bee5b606.svg": "/landing-page/static/media/email.bee5b606.svg",
-    "static/media/instagram.80d48694.svg": "/landing-page/static/media/instagram.80d48694.svg",
-    "static/media/logo.eb26a616.svg": "/landing-page/static/media/logo.eb26a616.svg",
-    "static/media/twitter.cab76191.svg": "/landing-page/static/media/twitter.cab76191.svg"
+    "main.css": "/rapchr-landing/static/css/main.cadb5258.chunk.css",
+    "main.js": "/rapchr-landing/static/js/main.a844039a.chunk.js",
+    "main.js.map": "/rapchr-landing/static/js/main.a844039a.chunk.js.map",
+    "runtime-main.js": "/rapchr-landing/static/js/runtime-main.b4c41796.js",
+    "runtime-main.js.map": "/rapchr-landing/static/js/runtime-main.b4c41796.js.map",
+    "static/js/2.50743679.chunk.js": "/rapchr-landing/static/js/2.50743679.chunk.js",
+    "static/js/2.50743679.chunk.js.map": "/rapchr-landing/static/js/2.50743679.chunk.js.map",
+    "static/js/3.a22c8797.chunk.js": "/rapchr-landing/static/js/3.a22c8797.chunk.js",
+    "static/js/3.a22c8797.chunk.js.map": "/rapchr-landing/static/js/3.a22c8797.chunk.js.map",
+    "index.html": "/rapchr-landing/index.html",
+    "static/css/main.cadb5258.chunk.css.map": "/rapchr-landing/static/css/main.cadb5258.chunk.css.map",
+    "static/js/2.50743679.chunk.js.LICENSE.txt": "/rapchr-landing/static/js/2.50743679.chunk.js.LICENSE.txt",
+    "static/media/email.bee5b606.svg": "/rapchr-landing/static/media/email.bee5b606.svg",
+    "static/media/instagram.80d48694.svg": "/rapchr-landing/static/media/instagram.80d48694.svg",
+    "static/media/logo.eb26a616.svg": "/rapchr-landing/static/media/logo.eb26a616.svg",
+    "static/media/twitter.cab76191.svg": "/rapchr-landing/static/media/twitter.cab76191.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c86adeea.js",
-    "static/js/2.856e4c21.chunk.js",
+    "static/js/runtime-main.b4c41796.js",
+    "static/js/2.50743679.chunk.js",
     "static/css/main.cadb5258.chunk.css",
     "static/js/main.a844039a.chunk.js"
   ]
