@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rapchr-landing/static/css/main.cadb5258.chunk.css",
-    "main.js": "/rapchr-landing/static/js/main.2cf19bb9.chunk.js",
-    "main.js.map": "/rapchr-landing/static/js/main.2cf19bb9.chunk.js.map",
+    "main.js": "/rapchr-landing/static/js/main.a844039a.chunk.js",
+    "main.js.map": "/rapchr-landing/static/js/main.a844039a.chunk.js.map",
     "runtime-main.js": "/rapchr-landing/static/js/runtime-main.b4c41796.js",
     "runtime-main.js.map": "/rapchr-landing/static/js/runtime-main.b4c41796.js.map",
     "static/js/2.50743679.chunk.js": "/rapchr-landing/static/js/2.50743679.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.b4c41796.js",
     "static/js/2.50743679.chunk.js",
     "static/css/main.cadb5258.chunk.css",
-    "static/js/main.2cf19bb9.chunk.js"
+    "static/js/main.a844039a.chunk.js"
   ]
 }
