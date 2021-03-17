@@ -1,0 +1,25 @@
+{
+  "short_name": "Rapchr",
+  "name": "Unofficial App for Verzuz Voting",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "rapchr-logo-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "rapchr-logo-310x310.png",
+      "type": "image/png",
+      "sizes": "310x310"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f1e3ce",
+  "background_color": "#2c201e"
+}
