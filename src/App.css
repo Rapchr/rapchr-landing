@@ -118,13 +118,13 @@ button:hover {
 .landing-page-icons-wrapper {
   display: flex;
   justify-content: center;
-  gap: 15px;
   margin: 40px auto;
 }
 
 .landing-page-icon {
   width: 32px;
   height: 32px;
+  margin: 0 10px;
 }
 
 .landing-page-icon.email {
