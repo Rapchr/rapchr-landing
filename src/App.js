@@ -25,7 +25,6 @@ class App extends Component {
           <MailchimpSubscribe
             url={url}
             render={({ subscribe, status, message }) => {
-              console.log("HAAN:", message, status)
               return (
                 <div>
                   <SimpleForm url={url} onSubmitted={formData => subscribe(formData)} />
