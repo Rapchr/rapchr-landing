@@ -37,7 +37,7 @@ class App extends Component {
           />
           <div className="landing-page-icons-wrapper">
             <a rel="noreferrer" target="_blank" href="https://twitter.com/rapchr"><img className="landing-page-icon" alt="twitter" src={twitter} /></a>
-            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/joinrapchr/?hl=en"><img className="landing-page-icon" alt="instagram" src={instagram} /></a>
+            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/joinrapchr/"><img className="landing-page-icon" alt="instagram" src={instagram} /></a>
             <a href="mailto:malcolm@rapchr.app"><img className="landing-page-icon email" alt="email" src={email} /></a>
           </div>
         </div>
